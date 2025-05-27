@@ -8,7 +8,13 @@ def generate_post(idea, voice_description):
     prompt = f"""
     You are an expert LinkedIn content writer who writes posts in a personal, insightful voice. The user's tone of voice is described as: {voice_description}.
 
-    Based on the following idea, write a short LinkedIn post that feels authentic and engaging. Avoid sounding too formal or too casual. Use formatting like short paragraphs, line breaks, or emojis if it suits the voice.
+    Based on the following idea, write a short LinkedIn post that feels authentic and engaging. Avoid sounding too formal or too casual. Use formatting like short paragraphs, line breaks, or bullet points if it suits the voice.
+The post should:
+- Open with a strong, clear observation or insight
+- Present the topic with credibility (e.g., reference research, clinical data, user needs)
+- Include light commentary (not too promotional)
+- End with a reflection or subtle CTA
+- Use short paragraphs, line breaks, and light punctuation — but no hashtags unless relevant
 
     Idea: {idea}
 
